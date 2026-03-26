@@ -1,0 +1,6 @@
+﻿services:
+  secondhandboard.web:
+    image: secondhandboard.web
+    build:
+      context: .
+      dockerfile: SecondHandBoard.Web/Dockerfile
